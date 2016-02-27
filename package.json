@@ -3,7 +3,6 @@
   "main": "server.js",
   "dependencies": {
     "ejs": "2.4.1",
-    "express": "4.13.4",
-    "controller": "file../controller"
+    "express": "4.13.4"
   }
 }

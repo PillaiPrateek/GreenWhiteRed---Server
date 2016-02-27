@@ -1,0 +1,59 @@
+body {
+	//background-image: url("jmss_background.jpg");
+	background-size: 100%, 800px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+#container {
+	top: 50%;
+	width: 50%;
+	height: 400px;
+	background-color: #FFF;
+	border: 2px solid #0090FF;
+	margin: 0 auto;
+	transform: translateY(50%);
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2989d8+0,2989d8+0,2989d8+0,2989d8+0,7db9e8+100 */
+	background: #2989d8; /* Old browsers */
+	background: -moz-linear-gradient(top, #2989d8 0%, #2989d8 0%, #2989d8 0%, #2989d8 0%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #2989d8 0%,#2989d8 0%,#2989d8 0%,#2989d8 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #2989d8 0%,#2989d8 0%,#2989d8 0%,#2989d8 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+	box-shadow: inset 1px 1px 5px 5px rgba(0, 0, 0, 0.50);
+}
+
+p {
+	margin-left: 16px;
+	margin-top: 16px;
+	margin-right: 16px;
+	font-family: 'Roboto', arial;
+	font-size: 24pt;
+	background: #297090;
+	color: #FFFFFF;	
+	text-align: center;
+	box-shadow: 8px 8px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+#content-container {
+	width: 90%;
+	height: 70%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+#email {
+	width: 200px;
+	height: 50%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding-top: 80px;
+	text-align: center;
+}
+
+#emailInput {
+	width: 200px;
+	height: 20px;
+}

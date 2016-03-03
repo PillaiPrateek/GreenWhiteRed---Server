@@ -2,18 +2,12 @@
 <html>
   <head>
     <title>Getting Started Extension's Popup</title>
-  <link rel="stylesheet" type="text/css" href="/styles/stylesheet.css" />
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
+    <% include ../partials/head %>
   </head>
   <body>
+  <% include ../partials/header %>
   <div id="container">
-    <p>Teacher Login</p>
+    <p class="title">Teacher Login</p>
     <div id="content-container">
       <div id="email">
         Email <br><br> <input type="text" name="email" id="emailInput"></input>
@@ -23,5 +17,6 @@
       </div>
     </div>
   </div>
+  <% include ../partials/footer %>
   </body>
 </html>

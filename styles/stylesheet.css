@@ -1,8 +1,14 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
 	//background-image: url("jmss_background.jpg");
 	background-size: 100%, 800px;
 	background-repeat: no-repeat;
 	margin: 0px;
+	margin-bottom: 60px;
 	padding: 0px;
 }
 
@@ -23,10 +29,8 @@ body {
 	box-shadow: inset 1px 1px 5px 5px rgba(0, 0, 0, 0.50);
 }
 
-p {
-	margin-left: 16px;
-	margin-top: 16px;
-	margin-right: 16px;
+.title {
+	margin: 1em;
 	font-family: 'Roboto', arial;
 	font-size: 24pt;
 	background: #297090;
@@ -56,4 +60,22 @@ p {
 #emailInput {
 	width: 200px;
 	height: 20px;
+}
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
 }

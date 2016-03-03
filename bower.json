@@ -1,0 +1,31 @@
+{
+  "name": "GWR-server-node-js",
+  "description": "Server backend of GreenWhiteRed chrome extension.",
+  "main": "server.js",
+  "authors": [
+    "JMSS Students"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "server",
+    "student",
+    "manager",
+    "teacher",
+    "school"
+  ],
+  "homepage": "https://github.com/SnapKomodoDragon/GreenWhiteRed---Server",
+  "moduleType": [
+    "globals"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6"
+  }
+}

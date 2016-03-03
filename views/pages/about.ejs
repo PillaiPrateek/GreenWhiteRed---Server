@@ -1,41 +1,55 @@
-<head>
-<link rel="stylesheet" type="text/css" href="/styles/about.css" />
-<title>About RedWhiteGreen </title>
-</head>
-<body>
-	<div>
-	<h1>About</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About RedWhiteGreen </title>
+        <% include ../partials/head %>
+    </head>
+    <body>
+        <% include ../partials/header %>
+        <article>
+	        <div class="container">
+	            <p class="title">About</h1>
 
-	<p>
-	A Chrome extension for better education
-	</p>
+	            <p>
+	                A Chrome extension for better education
+	            </p>
 
-	<p>
-	This will be a system for allowing students to indicate their learning state very easily, and the teacher (and perhaps other students) to be able to see it.
-	</p>
+	            <p>
+	                This will be a system for allowing students to indicate
+	                their learning state very easily, and the teacher (and
+	                perhaps other students) to be able to see it.
+	            </p>
 
-	<p>
-	The browser (Chrome) extension will simply allow the student to choose a colour - white (in the zone), red (struggling/need help) or green (too easy).
-	</p>
+	            <p>
+	                The browser (Chrome) extension will simply allows the 
+	                student to choose a colour - white (in the zone), red 
+	                (struggling/need help) or green (too easy).
+	            </p>
 
-	<p>
-	Via a different page/console, the teacher will be able to see a list of the students in their class, and their current state. Optionally, other students may be able to see student state as well, for example, for 'green' students to be able to find and assist 'red' students. This page might be implemented in a google sheet, or via a custom web app.
-	</p>
-	<br><br><br>
-	<p>
-	  <b>Team Members:</b> Josh Paul, Johann Ashton, Matthew Doyle, Prateek Pillai, and Saurabh Joshi
-	</p>
-
-	<br>
-
-	<p>
-	  <b>Why was it made?</b>
-	  <br>
-	  Students communicate to teachers or other students when they need help for their task, but sometimes this process can take a while for their problems to be resolved.
-	<br>
-	The red white green chrome extension aims to increase the efficiency of students&#39; progress on their task and aims to prevent the class from lagging behind on its schedule.
-	<br>
-	In this modern day of age we need to find an efficient way to make sure that our present day's students are ready to make a better tomorrow's workforce. We believe that starting at the root, that is making sure students know what they're doing and if they are understanding concepts well is a great first step to fulfilling this dream.
-	</p>
-	</div>
-</body>
+	            <p>
+	                Via a different page/console, the teacher will be able to 
+	                see a list of the students in their class, and their 
+	                current state. Optionally, other students may be able to 
+	                see student state as well, for example, for 'green' 
+	                students to be able to find and assist 'red' students. 
+	                This page might be implemented in a google sheet, or via 
+	                a custom web app.
+	            </p>
+	            <h2>Team Members:</h2>
+	            <p>
+	                Josh Paul, Johann Ashton, Matthew Doyle, Prateek Pillai, and Saurabh Joshi
+	            </p>
+                <h2>Why was it made?</h2>
+	            <p>
+	              <br>
+	              Students communicate to teachers or other students when they need help for their task, but sometimes this process can take a while for their problems to be resolved.
+	            <br>
+	            The red white green chrome extension aims to increase the efficiency of students&#39; progress on their task and aims to prevent the class from lagging behind on its schedule.
+	            <br>
+	            In this modern day of age we need to find an efficient way to make sure that our present day's students are ready to make a better tomorrow's workforce. We believe that starting at the root, that is making sure students know what they're doing and if they are understanding concepts well is a great first step to fulfilling this dream.
+	            </p>
+	        </div>
+	    </article>
+	    <% include ../partials/footer %>
+    </body>
+</html>

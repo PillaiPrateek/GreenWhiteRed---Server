@@ -4,9 +4,6 @@ html {
 }
 
 body {
-	//background-image: url("jmss_background.jpg");
-	background-size: 100%, 800px;
-	background-repeat: no-repeat;
 	margin: 0px;
 	margin-bottom: 60px;
 	padding: 0px;
@@ -62,9 +59,55 @@ body {
 	height: 20px;
 }
 
+.background_image {
+    /* image source: https://stock.tookapic.com/photos/16077 */
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("/images/lights-night-unsharp-blured.jpg") center;
+    background-size: 100% 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    line-height: 400px;
+    margin: 2em 0;
+}
+
+.title_text_overlay {
+    color: white;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: normal;
+}
+
+.btn-download {
+    padding: 1em 2em;
+}
+
+.title_text_overlay h1 {
+    font-size: 4em;
+}
+
+.btn .glyphicon {
+    margin-right: 8px;
+}
+
+a .glyphicon {
+    margin-right: 8px;
+}
+
+.btn.btn-icon .glyphicon {
+    margin-right: 0;
+}
+
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 800px;
   padding: 0 15px;
 }
 .container .text-muted {

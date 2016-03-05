@@ -4,7 +4,7 @@ var app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
-app.use("/styles", express.static(__dirname + "/styles"));
+app.use("/", express.static(__dirname + "/public"));
 app.use("/third_party_scripts", express.static(__dirname + "/bower_components"));
 
 var controller = require("./controller")(app);

@@ -1,22 +1,18 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
-    <% include ../partials/head %>
-  </head>
-  <body>
-  <% include ../partials/header %>
-  <div id="container">
-    <p class="title">Teacher Login</p>
-    <div id="content-container">
-      <div id="email">
-        Email <br><br> <input type="text" name="email" id="emailInput"></input>
-        <br>
-        <br>
-        <input type="submit" name="submit"></input>
-      </div>
-    </div>
-  </div>
-  <% include ../partials/footer %>
-  </body>
+    <head>
+        <title>Teacher login</title>
+        <% include ../partials/head %>
+        <meta name="google-signin-client_id" content="360043814903-nm5irqera4vtpce9colteso1k5ft2v8v.apps.googleusercontent.com">
+    </head>
+    <body>
+        <% include ../partials/header %>
+        <div class="container">
+            <h1>Teacher Login</h1>
+            <p>RWG uses Google to manage teacher accounts. Click the button below to start using RWG.</p>
+            <div id="signin-button" class="g-signin2 btn btn-google" data-onsuccess="onSignIn"></div>
+        </div>
+        <% include ../partials/footer %>
+        <script src="https://apis.google.com/js/platform.js" async defer></script>
+    </body>
 </html>

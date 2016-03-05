@@ -65,7 +65,8 @@ body {
       rgba(0, 0, 0, 0.4), 
       rgba(0, 0, 0, 0.7)
     ),
-    url("/images/lights-night-unsharp-blured.jpg") center;
+    url("/images/lights-night-unsharp-blured.jpg") center,
+    #000;
     background-size: 100% 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -103,6 +104,20 @@ a .glyphicon {
 
 .btn.btn-icon .glyphicon {
     margin-right: 0;
+}
+
+.btn-google {
+    background: url("../images/google_signin_buttons/web/1x/btn_google_signin_dark_normal_web.png") no-repeat;
+    width: 191px;
+    height: 46px;
+}
+
+.btn-google:hover {
+    background: url("../images/google_signin_buttons/web/1x/btn_google_signin_dark_focus_web.png") no-repeat;
+}
+
+.btn-google:active {
+    background: url("../images/google_signin_buttons/web/1x/btn_google_signin_dark_pressed_web.png") no-repeat;
 }
 
 .container {
